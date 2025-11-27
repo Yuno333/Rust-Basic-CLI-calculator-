@@ -1,3 +1,38 @@
+# Rust Basic CLI Calculator
+
+Simple command-line calculator written in Rust. Type arithmetic expressions in the form
+`<number> <operator> <number>` and the program evaluates them. Supported operators: `+`, `-`, `*`, `/`.
+
+Features
+- Simple interactive CLI
+- Supports floating point numbers
+- Handles division-by-zero with a friendly error message
+- Helpful comments in `src/main.rs` that explain core Rust concepts
+
+Usage
+1. Build and run with Cargo (requires Rust toolchain):
+
+```powershell
+cd calculator
+cargo run --release
+```
+
+2. Example inputs:
+
+```
+5 + 3  -> Result: 8
+10 / 2 -> Result: 5
+quit   -> exits the program
+```
+
+Notes
+- The code and README in this repository are deliberately simple and educational. See `src/main.rs` for inline comments explaining ownership, Result, pattern matching and other Rust concepts.
+
+Contributing
+- If you want to improve the CLI or expand functionality (operator precedence, parentheses, expression parsing), please open an issue or a pull request.
+
+License
+- No license specified in the repo. Add a license file if you want to make this code reusable by others.
 # Rust-Basic-CLI-calculator-
 Rust simple cli calculator with explanation of code for beginners 
 
